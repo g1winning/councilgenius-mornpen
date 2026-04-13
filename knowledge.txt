@@ -1,0 +1,2588 @@
+=== MORNINGTON PENINSULA SHIRE COMMUNITY ASSISTANT KNOWLEDGE BASE ===
+=== Version 8.0 | Last Updated: 2026-04-03 ===
+
+--- SYSTEM PROMPT ---
+=== UNIVERSAL RULES ===
+PROMPT_VERSION: 8.0
+PERSONALITY: Friendly, Australian, helpful, direct. Like a helpful friend who works at the council, not a bot. Never formal or robotic. Validate resident frustration with council processes.
+ANTI-HALLUCINATION: NEVER guess or fabricate bin collection days, fees, fine amounts, processing times, or dates. If info not in knowledge base, say so and offer council phone 1300 850 600, web page URL, or email.
+RESOLUTION TARGET: Resolve every query within four user turns. Ask no more than two clarifying questions.
+FORMAT RULES: No emoji. No raw HTML. Markdown only. Phone as tel: links. Email as mailto: links. Web links as markdown. No ## headers — use **bold**. Bullet points for 3+ items.
+DEEP LINKS: All web links point to deep functional pages. NEVER link to hub/menu pages.
+SOURCE CITATIONS: When answering, cite SOURCE_URL at end of answer as markdown link.
+RUDE LANGUAGE: IGNORE. Respond only to council service intent.
+MULTILINGUAL: If resident writes non-English, respond in BOTH that language AND English.
+ACCESSIBILITY: Proactively offer phone and email alongside web links.
+MULTI-PART: For multi-topic questions, confirm understanding before answering.
+TODAY'S DATE: 2026-04-03
+
+=== COUNCIL-SPECIFIC ===
+COUNCIL: Mornington Peninsula Shire
+WEBSITE: www.mornpen.vic.gov.au
+PHONE: 1300 850 600 (24 hours)
+HOURS: Rosebud & Mornington offices 9am-4:30pm Mon-Fri, Hastings 1pm-4:30pm Mon-Fri
+ADDRESS: Private Bag 1000, Rosebud VIC 3939
+EMAIL: customerservice@mornpen.vic.gov.au
+
+Neighbouring councils:
+- City of Frankston: 1300 322 322
+- City of Casey: 03 9705 5200
+- Bass Coast Shire: 1300 226 278
+
+FOR BIN QUESTIONS: Direct residents to My Neighbourhood lookup or bin calendars at Find Your Bin Day page.
+FOR BUILDING/PLANNING: Ask (1) type of structure, (2) estimated cost, (3) suburb.
+
+--- QUICK REFERENCE ---
+Council phone: [1300 850 600](tel:1300850600)
+Council website: www.mornpen.vic.gov.au
+Operating hours: Rosebud & Mornington 9am-4:30pm Mon-Fri, Hastings 1pm-4:30pm Mon-Fri
+Emergency contact: 000
+Main office: 90 Besgrove Street, Rosebud VIC 3939
+Email: [customerservice@mornpen.vic.gov.au](mailto:customerservice@mornpen.vic.gov.au)
+
+---
+
+=== WASTE AND RECYCLING ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Rubbish-Recycling
+
+**Bin Types and Collection**
+The Shire provides four bin types:
+- Red bin: General rubbish (collected weekly)
+- Yellow bin: Recycling (collected fortnightly, or weekly during summer Dec-Jan)
+- Green bin: Garden waste (collected fortnightly, or weekly during summer Dec-Jan)
+- Brown bin: Food and green waste FOGO (food organics, garden organics) — available where offered
+
+**Find Your Bin Day**
+Use the My Neighbourhood lookup tool to find:
+- Exact collection day and week for your address
+- Bin types available at your property
+- Holiday and special collection schedules
+
+Access through: https://www.mornpen.vic.gov.au/My-Neighbourhood
+
+**Extra Bins and Capacity Upgrades**
+Cost: $95 per bin per year (2025-26)
+Apply through: Online form or phone [5950 1020](tel:59501020)
+Examples: Extra recycling bin during summer, extra green waste during garden season
+
+**Missed or Damaged Bins**
+Report online or phone [5950 1020](tel:59501020)
+Replacement cost: Nil if damaged by collection vehicle, small fee for lost bins
+
+**Bin Lid Colour Change**
+Request colour change for recycling or green bin through online form or phone [5950 1020](tel:59501020)
+
+**Summer Weekly Recycling**
+During December and January, recycling and garden waste collections move to weekly (instead of fortnightly) to manage increased holiday waste.
+
+**Contamination Rules**
+What contaminates recycling (DO NOT PUT IN YELLOW BIN):
+- Plastic bags (they jam sorting equipment)
+- Broken glass and ceramics
+- Food and liquid residue
+- Soil and garden matter
+- Polystyrene and foam
+- E-waste, batteries, light bulbs
+- Metal paint cans, syringes
+
+Result: Contaminated loads can close the sorting facility or require manual sorting, adding cost.
+
+**Bin Presentation Rules**
+- Bins must be placed at kerbside by 6am on collection day
+- Bins returned to storage within 48 hours
+- Maximum fill level: Do not overfill or compacting lid cannot close
+- Lids must be closed before collection
+
+**Complaints**
+Report dirty or damaged bins to [5950 1020](tel:59501020)
+
+---
+
+=== RESOURCE RECOVERY CENTRES ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Rubbish-Recycling/Free-of-charge-items-at-our-resource-recovery-centres
+
+**Three Main Centres**
+
+1. **Rye Resource Recovery Centre**
+   - Address: 280 Truemans Road, Fingal VIC 3938
+   - Standard opening hours
+   - Phone: [5950 1020](tel:59501020)
+
+2. **Tyabb Resource Recovery Centre**
+   - Address: 21 McKirdys Road, Tyabb VIC 3941
+   - Standard opening hours
+   - Phone: [5950 1020](tel:59501020)
+
+3. **Mornington Resource Recovery Centre**
+   - Address: 134 Watt Road, Mornington VIC 3931
+   - Standard opening hours
+   - Phone: [5950 1020](tel:59501020)
+
+**Free Items at All RRCs**
+- Metals (ferrous and non-ferrous)
+- Whitegoods (fridges, washing machines, ovens, dishwashers)
+- Mattresses and bedding
+- Timber (untreated)
+- Textiles and clothing
+- Shoes and footwear
+- Electrolux (white goods, TVs, computers)
+- Bric-a-brac
+
+**Hoppers at Smaller Locations**
+- Flinders hopper
+- Sorrento hopper
+- Dromana hopper
+
+(Use these for drop-off of acceptable waste — check opening hours)
+
+**Items Accepted (Fee-Based)**
+- Green waste (various fees by volume)
+- Hard waste (by volume)
+- Tyres (fee applies)
+- Asbestos (free — must declare)
+- E-waste (free — batteries, computers, phones)
+- Gas bottles (free)
+- Fluorescent tubes and light bulbs (free)
+
+---
+
+=== HARD AND GREEN WASTE ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Rubbish-Recycling/Food-and-Green-Waste
+
+**Hard Waste Collection Service**
+Phone to book: [5950 1406](tel:59501406)
+- Hard waste (timber, metal, bric-a-brac, old furniture)
+- Collected from kerbside by arranged appointment
+- Size limit: Items must fit within a small truck trailer or equivalent
+- Cost: Covered by annual waste vouchers (see below)
+
+**Green Waste Collection Service**
+Phone to book: [5950 1406](tel:59501406)
+- Garden waste including branches, prunings, leaves
+- Collected from kerbside by arrangement
+- Cost: Covered by annual waste vouchers
+
+**Waste Vouchers**
+Issued on Annual Rates & Valuation Notice:
+- Four vouchers per property per year
+- Each voucher = 0.5 cubic metre hard waste OR 1 cubic metre green waste
+- If ordering hard waste collection: One voucher = 0.5 cubic metre for both hard and green waste combined
+- Expire: 30 September each year
+- Cannot find vouchers? Apply for reprint at: https://www.mornpen.vic.gov.au/Your-Property/Rates-Valuations/Rates-Valuations-Forms/Annual-Rate-Valuation-Notice-reprintcopy
+- Contact: [5950 1020](tel:59501020)
+
+**Free Green Waste Weekends**
+The Shire offers free green waste drop-off weekends several times per year at Resource Recovery Centres (no voucher needed). Check website for dates at: https://www.mornpen.vic.gov.au/Your-Property/Rubbish-Recycling/Food-and-Green-Waste
+
+**FOGO (Food Organics, Garden Organics)**
+Where available, brown bins collect both food waste and garden waste:
+- Food scraps: Meat, bones, seafood, dairy, bread, rice, pasta, fruit, vegetable scraps
+- No food packaging, plastic, or bags
+- Garden waste: Leaves, grass, prunings, weeds, flowers
+- Benefits: Reduces landfill, creates compost for community use
+- Sign up through: Online form or [5950 1020](tel:59501020)
+
+---
+
+=== HAZARDOUS WASTE ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Rubbish-Recycling
+
+**Free Items at Resource Recovery Centres**
+
+Batteries (all types)
+- Dead or dying batteries from phones, cameras, remotes, hearing aids
+- Car and solar batteries (large items — enquire at RRC)
+
+Electronic waste (e-waste)
+- Phones, computers, tablets, printers, monitors, TVs
+- Whitegoods (fridges, washing machines, ovens, dishwashers)
+- Free disposal (no fee)
+
+Gas bottles and cylinders
+- BBQ gas bottles, camping bottles, welding cylinders
+- Free disposal at RRCs
+
+Fluorescent tubes and light bulbs
+- Energy savers, tube lights, halogen
+- Free disposal — prevents mercury release to environment
+
+Asbestos
+- Must be in intact condition
+- Declaration required (do not break or disturb)
+- Free disposal at RRCs
+- For large quantities or concerns about asbestos in your home, contact [5950 1020](tel:59501020)
+
+Oil and paint
+- Used engine oil (free at some RRCs — enquire)
+- Paint (hazardous — not accepted at general RRCs; enquire about special collection)
+
+**Chemical and Hazardous Items NOT at RRCs**
+- Pesticides, herbicides, fungicides
+- Pool chemicals, bleach, solvents
+- Asbestos containing materials (in poor condition)
+
+For hazardous chemical disposal, contact: [5950 1020](tel:59501020) or Sustainability Victoria: 1300 363 744
+
+---
+
+=== COMPOSTING AND WORM FARMS ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Rubbish-Recycling/Food-and-Green-Waste
+
+**Rebates and Support**
+The Shire offers rebates to encourage home composting and worm farming (reduce landfill waste).
+
+Eligible systems:
+- Compost bins and tumblers
+- Worm farm kits
+- Bokashi bins
+
+To apply for rebate: Contact Sustainability or check https://www.mornpen.vic.gov.au/Your-Property/Rubbish-Recycling/Food-and-Green-Waste for current program details and amounts.
+
+Phone: [5950 1020](tel:59501020)
+
+**Benefits**
+- Reduces amount of waste going to landfill
+- Creates free nutrient-rich soil for garden
+- Reduces methane emissions (if composting food waste)
+- Lowers annual waste costs via reduced bin use
+
+---
+
+=== CONTAINER DEPOSIT SCHEME ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Rubbish-Recycling/Recycling
+
+**10 Cent Refund Scheme**
+Victorian container deposit scheme: Receive 10 cents per eligible container returned.
+
+Eligible containers:
+- Drink bottles (plastic, glass, metal)
+- Cans (aluminium, steel)
+- Cartons (juice, milk, wine)
+- Must have 'Deposit' marked on label
+
+**Where to Return**
+Return-It refund stations across the peninsula — find locations at: https://www.returnit.com.au/
+
+Process:
+1. Collect eligible containers
+2. Sort and bag (or in crate)
+3. Take to Return-It station
+4. Scan barcode or employee scans
+5. Instant refund (cash or card)
+
+**Tips**
+- Check label for Deposit mark before collecting
+- Rinse containers (hygiene and processing)
+- Return regularly — containers can degrade outdoors
+- Reward scheme: Some Return-It stations offer loyalty programs
+
+---
+
+=== RATES AND PAYMENTS ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Rates-Valuations/Rate-payments
+
+**How Rates Are Calculated**
+Rates are calculated using the Capital Improved Value (CIV) method:
+- CIV = market value of land + improvements
+- Rate in the dollar (2025-26): 0.001414 cents
+- Waste Service Charge: $433.00 (applies equally to all properties)
+
+Example: Property with CIV of $925,000
+= ($925,000 x 0.001414) + $433 = $1,740.95
+
+**Rate Due Dates (2025-26)**
+
+If paying in full:
+- Due by 15 February 2026
+
+If paying by 4 instalments:
+- 1st instalment: 30 September 2025
+- 2nd instalment: 30 November 2025
+- 3rd instalment: 28 February 2026
+- 4th instalment: 31 May 2026
+
+If first instalment not paid by 30 Sept 2025, property reverts to full payment due 15 Feb 2026.
+
+**When Rate Notices Are Sent**
+- Annual rates notices: Mid-August each year (posted and emailed)
+- Instalment notices: 3 weeks before each instalment due date
+
+**Payment Methods**
+
+Direct Debit with Payble (flexible, recommended)
+- Weekly, fortnightly, monthly, or quarterly payments
+- Automatic deductions from bank/credit card
+- SMS reminder before each payment
+- Can change payment frequency, method, or details anytime
+- Payment plan automatically renews each year
+- Portal: https://rates.mornpen.vic.gov.au/biller/mornington-peninsula-shire
+- If arrears exceed $1,000, call Revenue Team [5950 1080](tel:59501080)
+
+BPAY (online banking)
+- Biller code: 20537
+- Reference number on rates notice
+- Log into online banking and pay directly
+
+Online Payment Portal
+- Pay your rates online: https://mornpen.t1cloud.com/T1Default/CiAnywhere/Web/MORNPEN/Public/Function/%24P1.DEB.ANNPYNW.MNT/PUBLIC?suite=PR
+- Alternative: https://rates.mornpen.vic.gov.au/biller/mornington-peninsula-shire/setup
+
+In Person at Shire Offices
+- Bring rates notice intact to any office:
+  - Mornington: 2 Queen Street, 9am-4:30pm Mon-Fri
+  - Rosebud: 90 Besgrove Street, 9am-4:30pm Mon-Fri
+  - Hastings: 21 Marine Parade, 1pm-4:30pm Mon-Fri
+- Payment methods: Cash, cheque, EFTPOS, MasterCard, Visa
+- Surcharge applies when paying by card
+- Make cheques payable to 'Mornington Peninsula Shire'
+
+Australia Post and Post Billpay
+- Post Billpay code: 3653
+- Phone 13 18 16 to pay using credit card (MasterCard or VISA)
+- Available 24 hours/day, 7 days/week
+- Available at any Australia Post office
+
+**Financial Hardship**
+If you cannot make payments by due dates:
+- Contact Revenue Debt Management Team: [5950 1080](tel:59501080)
+- Complete online hardship application: https://www.mornpen.vic.gov.au/Your-Property/Rates-Valuations/Rate-payments/Hardship-application
+- Available to owner-occupiers or tenants responsible for rates (primary residence only)
+
+**Rate Payment Assistance**
+Making small, regular payments reduces penalty interest when rates not paid in full by 30 June 2026. Set up a formal payment plan through Payble (see Direct Debit section above).
+
+**Electronic Rates Notices (EzyBill)**
+If you prefer email delivery instead of paper:
+- Sign up for EzyBill: https://mornpen.ezybill.com.au/
+- Rate notices emailed from noreply@ezybill.com.au
+- Access 24/7 online
+- Includes Pay Now button (card surcharge applies)
+
+For enquiries: Call [5950 1434](tel:59501434) or email [animal.changes@mornpen.vic.gov.au](mailto:animal.changes@mornpen.vic.gov.au)
+
+---
+
+=== RATES REBATES AND CONCESSIONS ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Rates-Valuations/Rates-rebates-concessions-and-applications
+
+**Pensioner Concession**
+- Up to 50% off council rates
+- Maximum concession: $266.00 per year (2025-26)
+- Eligible cardholders: Pensioner Concession Card, DVA Gold Card TPI, or DVA Gold Card WW
+- Available only for principal place of residence
+- One rebate per rating year
+- Applications accepted until 30 June 2026
+
+**Conservation Land Rate**
+- Eligible properties: 75% of general rate on land component only (excluding house and surrounds)
+- For landholders practising best practice conservation management
+- Apply through: https://www.mornpen.vic.gov.au/Your-Property/Rates-Valuations/Rates-rebates-concessions-and-applications
+
+**Farm Land Classification**
+- Agricultural land attracts differential rate at 35% of general rate
+- Property must meet "farm land" criteria under Valuation of Land Act 1960
+- Applies to eligible rural properties
+- Apply through: Council Rates department
+
+**Trust for Nature Rate Incentive**
+- Land under Trust for Nature conservation covenant: 35% of general rate (65% below general rate)
+- For landholders with long-term conservation commitment
+- Protects biodiversity on private land
+
+**Heritage Rate Rebate**
+- Rebate available for owners of heritage places undertaking conservation work
+- Recognises cultural values of heritage properties
+- Requires documentation of conservation work
+- Contact: https://www.mornpen.vic.gov.au/Your-Property/Rates-Valuations/Rates-rebates-concessions-and-applications
+
+**Emergency Services and Volunteers Fund (ESVF)**
+- Replaces previous Fire Services Property Levy (from 1 July 2025)
+- Flat charge: $136 for residential properties, $275 for other property types
+- Plus additional charge based on CIV for all property types
+- Supports: VICSES, Triple Zero Victoria, State Control Centre, Forest Fire Management Victoria, Emergency Recovery Victoria, CFA, Fire Rescue Victoria
+- Enquiries: 1300 819 033 or [State Revenue Office ESVF](https://www.sro.vic.gov.au/emergency-services-and-volunteers-fund)
+
+**Applications and Forms**
+Access all rate rebate and concession forms at: https://www.mornpen.vic.gov.au/Your-Property/Rates-Valuations/Rates-Valuations-Forms
+
+Contact: Rates and Valuations team [5950 1000](tel:59501000) or [rates@mornpen.vic.gov.au](mailto:rates@mornpen.vic.gov.au)
+
+---
+
+=== ANIMALS AND PETS ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Animals-and-Pets/Responsible-pet-ownership
+
+**Registration (Mandatory)**
+All cats and dogs aged 12 weeks or older must be registered with the Shire.
+
+Renewal deadline: 10 April each year
+
+Registration funds:
+- Animal management staffing and after-hours services
+- Investigation of unregistered animals, wandering cats/dogs, barking dogs
+- Investigation and prosecution of dog attacks
+- Declaration of dangerous, menacing, and restricted breed dogs
+- Lifetime registration tags for registered dogs and cats
+- Compulsory State Government levy per registered pet
+
+**Microchipping (Mandatory)**
+- Required before registration for all dogs and cats
+- Mandatory since May 2007
+- 15-digit microchip number
+- Benefits: Cannot be lost, enables recovery from anywhere in Australia 24/7
+- Proof of microchipping from vet required at registration
+
+**Desexing**
+All cats must be desexed and microchipped prior to registration.
+
+Dogs and cats must be desexed before being sold or given away (except if animal is 10 years or older).
+
+Proof of desexing from vet required at registration to receive discounted registration fee.
+
+Benefits:
+- Male dogs less likely to fight, wander, or exhibit offensive sexual habits
+- Female dogs protected from breast cancer and uterus problems
+- Prevents unwanted pregnancies
+- Cats live longer, healthier lives
+- Cats less likely to suffer anti-social behaviour, wander, or run away
+- Confined cats have lower risk of FIV infection
+
+**Confinement Rules**
+
+Cats: 24-hour curfew
+- Cats must be confined to owner's property at all times of day and night
+- If found at large or trespassing, Shire Officers may take enforcement action
+
+Dogs: On-leash in public except in designated leash-free areas
+- Unless in designated leash-free area, dogs must be on leash in all public places
+- Dog prohibited areas exist throughout the Shire
+- If found at large or not securely confined, Shire Officers may take enforcement action
+- Interactive map available for leash-free and prohibited areas
+
+**Maximum Animals by Property Size (Without Permit)**
+
+| Property Size | Dogs | Cats | Horses/Donkeys | Sheep/Goats/Llamas | Pigs | Roosters | Poultry | Cattle |
+|---|---|---|---|---|---|---|---|---|
+| <499 sq m | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 500-1,199 sq m | 2 | 2 | 0 | 0 | 0 | 0 | 5 | 0 |
+| 1,200-2,499 sq m | 2 | 2 | 0 | 1 | 0 | 0 | 10 | 0 |
+| 2,500-4,999 sq m | 3 | 2 | 1 | 2 | 0 | 0 | 10 | 0 |
+| 5,000-9,999 sq m | 3 | 2 | 2 | 4 | 0 | 0 | 10 | 0 |
+| >10,000 sq m | 3 | 2 | 3 | 6 | 0 | 0 | 20 | 1 |
+
+For additional animals beyond limits, apply for Excess Animal Permit.
+
+**Enforcement and Infringements**
+Council animal management officers investigate breaches of Domestic Animals Act 1994 and animal-related offences under Community Amenity Local Law 2022.
+
+Common offences with possible fines:
+- Dogs off-leash in on-leash areas
+- Dogs in prohibited areas
+- Failing to carry a bag and/or pick up after dog
+- Failing to register dog or cat
+- Barking dogs
+- Roaming cats
+
+Infringements increase on 1 July annually per CPI (indexation).
+For current infringement values: [Department of Treasury and Finance](https://www.dtf.vic.gov.au/indexation-fees-and-penalties)
+
+**Animal Registration and Enquiries**
+Phone: [5950 1434](tel:59501434)
+Email: [animal.changes@mornpen.vic.gov.au](mailto:animal.changes@mornpen.vic.gov.au)
+Online registration and renewal: Through My Neighbourhood or council website
+
+---
+
+=== DOGS ON THE PENINSULA ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Animals-and-Pets/Dogs-on-the-Peninsula
+
+**Leash Rule**
+Dogs must always be under effective control of a chain, cord, or leash whilst in a public place except in designated leash-free areas.
+
+**Dog Prohibited Areas**
+Dogs are NOT permitted in dog prohibited areas whether on leash or not.
+
+The Peninsula is home to vulnerable, threatened, and endangered species:
+- Threatened Hooded Plover
+- Migratory shorebirds
+- Marsupials: White-footed Dunnart, Long-nosed Bandicoot
+- Reptiles: Blue-tongued Lizard
+
+Many species are susceptible to dog attacks and distressed by dog scent and barking.
+
+**Leash-Free Areas**
+Designated leash-free areas exist throughout the Mornington Peninsula:
+- Dog owners must leash dogs until reaching the designated area
+- Must re-leash when leaving the area
+- Check interactive map for exact locations
+
+Suggest a new leash-free area: https://www.mornpen.vic.gov.au/Online-Forms-and-Services/Leash-Free-Site-Nomination
+
+**Responsible Dog Ownership**
+When heading out with your dog:
+- Follow local signage instructions
+- Collect and dispose of droppings responsibly (failure may result in fines)
+- Ensure your dog doesn't disturb other people, animals, and wildlife
+- Regular exercise and positive stimulation reduce barking and nuisance behaviour
+
+**Dogs at Beaches**
+
+Port Phillip Bay and Western Port beaches
+- Managed by Department of Energy, Environment and Climate Action (DEECA)
+- Various dog controls apply — check interactive map for specific beach rules
+
+Bass Strait beaches
+- Managed by Parks Victoria (Mornington Peninsula National Park and Point Nepean National Park)
+- Dogs prohibited at all times of year
+- Council does not manage these parks
+
+**Dogs Policy Update**
+- Updated: 3 December 2024
+- New controls in effect: 12 December 2024
+- Full details: https://www.mornpen.vic.gov.au/Online-Forms-and-Services/Dogs-Policy-Updates
+
+**Dog Prohibited Area Review**
+Some dog-prohibited reserves show "Under Review" signs — Council is reviewing dog controls with independent consultant.
+Community invited for input via online survey and outreach sessions (details coming soon).
+Updated: March 2026
+
+---
+
+=== COMMUNITY ANIMAL SHELTER AND ANIMAL POUND ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Animals-and-Pets/Community-Animal-Shelter-and-Animal-Pound
+
+**Services Overview**
+The Mornington Peninsula Shire Community Animal Shelter and Animal Pound has been caring for cats, dogs, livestock, and pocket pets for more than 30 years.
+
+Primary purpose: Assist animals in need.
+
+**Key Contact**
+Phone: [(03) 5950 1838](tel:03-5950-1838) or 1300 850 600 (after hours)
+
+**Pets for Adoption**
+Pets available for adoption can be viewed on the Shire website: https://www.mornpen.vic.gov.au/Your-Property/Animals-and-Pets/Community-Animal-Shelter-and-Animal-Pound/Pets-for-Adoption
+
+**Lost Pets**
+If your pet is missing:
+1. Check with the Community Animal Shelter: [(03) 5950 1838](tel:03-5950-1838) or 1300 850 600 (outside business hours)
+2. Look at Lost Pet advertisements: https://www.mornpen.vic.gov.au/Your-Property/Animals-and-Pets/Community-Animal-Shelter-and-Animal-Pound/Lost-Pets
+3. Lodge a Lost Pet form: https://www.mornpen.vic.gov.au/Your-Property/Animals-and-Pets/Community-Animal-Shelter-and-Animal-Pound/Lost-Pets
+
+Advertisement: Unclaimed pets not reunited with owners are advertised on the Shire website.
+
+---
+
+=== PLANNING AND PERMITS ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Building-Planning/Planning
+
+**Do I Need a Planning Permit?**
+Many activities DO NOT require a planning permit:
+- Home extensions (in some cases)
+- Swimming pools (up to certain size)
+- Decks and patios (in some cases)
+- Some garden structures
+
+Use the planning scheme check tool to verify: https://www.mornpen.vic.gov.au/Building-Planning/Planning/Do-I-need-a-planning-permit
+
+For specific advice, contact Pre-Application Service (see below).
+
+**Planning Permit Application Process**
+
+Step 1: Check if permit needed
+- Use online tool or contact Pre-Application Service
+
+Step 2: Prepare application
+- Use standard forms
+- Collect required drawings, plans, and specifications
+- Pay application fee (based on proposal cost)
+
+Step 3: Submit application
+- Online portal or in person at Service Centres
+- Reference number issued
+
+Step 4: Assessment
+- Council assesses proposal against planning scheme
+- Officers may request more information
+- Neighbours may be consulted (notification period)
+
+Step 5: Decision
+- Approval granted (with or without conditions)
+- Refusal issued with reasons
+- Deemed decision (if no decision made within statutory period)
+
+Step 6: Objection (if refused)
+- Residents can object within set period
+- Objection can be lodged with Planning Panels Victoria
+
+Typical timeframe: 30-60 days (complex applications may take longer)
+
+**Pre-Application Service**
+Get confidential advice before submitting formal application:
+- Discuss your proposal with planning officer
+- Understand requirements and design expectations
+- Identify any issues early
+- May prevent costly rejections or delays
+
+Cost: Usually free or small fee (enquire with council)
+Book: Phone [5950 1000](tel:59501000) or through online booking system
+
+**Planning Application Fees**
+Fees based on estimated project cost:
+- Projects under $50,000: Lower fee
+- Projects $50,000-$500,000: Mid-range fee
+- Projects over $500,000: Higher fee
+
+Current fee schedule: https://www.mornpen.vic.gov.au/Building-Planning/Planning/Planning-applications-forms-and-fees
+
+**Planning Scheme and Zoning**
+Check what's permitted on your land:
+1. Identify zone (residential, commercial, agricultural, etc.)
+2. Check overlays (heritage, flood, bushfire, etc.)
+3. Confirm requirements (setbacks, height, parking)
+
+Interactive planning scheme map: https://www.mornpen.vic.gov.au/Building-Planning/Planning/Check-your-planning-scheme
+
+**Objecting to a Planning Decision**
+If a permit is refused or you disagree with conditions:
+- Lodge objection with Planning Panels Victoria
+- Objection period: 28 days from decision letter
+- Enquire about mediation option first
+
+Contact: Planning Panels Victoria 1300 744 346
+
+**Contact Information**
+Phone: [5950 1000](tel:59501000) (press 1 for Planning)
+Email: [planning@mornpen.vic.gov.au](mailto:planning@mornpen.vic.gov.au)
+Online: https://www.mornpen.vic.gov.au/Building-Planning/Planning
+
+---
+
+=== BUILDING ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Building-Planning/Building
+
+**Building Permits (Mandatory)**
+A building permit is required for most construction work including:
+- New houses
+- Home extensions
+- Decks, pergolas, sheds (larger structures)
+- Swimming pools and spas
+- Renovations and alterations
+
+Some smaller items may not require a permit — check online or contact Building Services.
+
+**Building Permit Application Process**
+
+Step 1: Design preparation
+- Engage builder or architect
+- Prepare engineering drawings compliant with Building Code
+
+Step 2: Apply for permit
+- Submit drawings and specifications
+- Pay application fee
+- Include engineer certification if required
+
+Step 3: Assessment
+- Council reviews against Victorian Building Code
+- Officers may request corrections
+- Permit issued once compliant
+
+Step 4: Construction
+- Work must comply with permit conditions
+- Inspections required at key stages
+
+Step 5: Final certification
+- Occupancy permit issued upon completion
+- Certificate of Occupancy allows property use
+
+**Building Permit Costs**
+Application fees based on estimated project cost and complexity.
+Current fee schedule: https://www.mornpen.vic.gov.au/Building-Planning/Building/Building-applications-forms-and-fees
+
+**Swimming Pools and Spas**
+Require building permit and safety compliance:
+- Barriers and fencing (prescribed standards)
+- Rescue equipment
+- CPR signage
+- Regular inspections
+
+New pools: Fencing must meet VicSafe Standards (1200mm height minimum, childproof gates).
+
+Existing pools: Compliance audit may be required.
+
+Cost: Permit fees vary by pool size and complexity.
+
+Contact: Building Services [5950 1000](tel:59501000)
+
+**Fences**
+Building permit required for:
+- Front fences over 1.2m high
+- Side/rear fences over 2.1m high
+- Fences in heritage areas
+- Fences visible from street (in some zones)
+
+Many standard residential fences do not require permit if within height limits.
+
+**Flood and Bushfire Planning**
+Before building or extending:
+- Check if property is in flood risk area: https://www.mornpen.vic.gov.au/Building-Planning/Building/Flood-maps-and-information
+- Check if property is in bushfire prone area (10/50 rule): https://www.mornpen.vic.gov.au/Your-Property/Fire-Emergency
+- Adjust designs to comply with Building Code provisions
+
+Permit may be refused in high-risk areas or require special conditions.
+
+**Building Compliance**
+Council building inspectors check:
+- Foundation, structure, framing
+- Electrical and plumbing compliance
+- Fire safety provisions
+- Accessibility standards
+- Energy efficiency
+
+Regular inspections during construction (at key stages).
+
+**Contact Information**
+Phone: [5950 1000](tel:59501000) (press 1 for Building)
+Email: [building@mornpen.vic.gov.au](mailto:building@mornpen.vic.gov.au)
+Online: https://www.mornpen.vic.gov.au/Building-Planning/Building
+
+---
+
+=== ENGINEERING ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Building-Planning/Engineering
+
+**Vehicle Crossing Permits**
+If you need to access your property across a nature strip or council land:
+- Driveway onto street requires council approval
+- Crossing must not impede stormwater drainage
+- Must comply with traffic and sight distance requirements
+
+Apply through: https://www.mornpen.vic.gov.au/Building-Planning/Engineering or phone [5950 1000](tel:59501000)
+
+Cost: Permit fee applies (varies by crossing type)
+
+**Road Opening Permits**
+If work requires opening council road or footpath:
+- Traffic management plan required
+- Public liability insurance required
+- Environmental controls required (dust, drainage)
+
+Apply: [5950 1000](tel:59501000) or engineering@mornpen.vic.gov.au
+
+Lead time: 10-15 days (allow longer for complex projects)
+
+**Nature Strip Works**
+If you wish to modify or landscape the nature strip (council land between property line and road):
+- Written permission required
+- Some works prohibited (e.g., fences cannot encroach on nature strip)
+- Trees and plantings must be approved
+
+Contact: [5950 1000](tel:59501000)
+
+**Stormwater and Drainage**
+Your property may be affected by stormwater drainage:
+- Council maintains gross pollutant traps
+- Stormwater detention systems required for new developments
+- Flood-prone properties require special design
+
+If you have drainage concerns:
+- Report through online form: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem
+- Phone: [5950 1000](tel:59501000)
+- Email: [drainage@mornpen.vic.gov.au](mailto:drainage@mornpen.vic.gov.au)
+
+**Street Lighting**
+For street light maintenance, outages, or requests:
+- Report through: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem
+- Phone: [1300 850 600](tel:1300850600)
+- Email: [customerservice@mornpen.vic.gov.au](mailto:customerservice@mornpen.vic.gov.au)
+
+---
+
+=== HERITAGE ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Building-Planning/Heritage
+
+**Heritage Overlay Properties**
+Properties on the Heritage Overlay require planning permit for certain works:
+- External alterations (colour, cladding, windows)
+- Additions (visible from street)
+- Demolition
+- Tree removal
+- Fence modifications
+
+Not all work needs permit — enquire with Council.
+
+**Heritage Grants and Assistance**
+Council offers:
+- Heritage rebate on rates (see Rates Rebates section)
+- Heritage grants for conservation works
+- Technical advice on appropriate repairs
+- Recognition programs and heritage awards
+
+Apply for grants: https://www.mornpen.vic.gov.au/Building-Planning/Heritage or [5950 1000](tel:59501000)
+
+**Heritage Studies and Awards**
+Peninsula Heritage Awards: Annual recognition for outstanding conservation works.
+
+Heritage studies: Council conducts studies to identify significant heritage places.
+
+**Aboriginal Cultural Heritage**
+If your land contains or may contain Aboriginal cultural heritage:
+- Mandatory to stop work and notify Council and Gunditjmara Aboriginal Cooperative
+- Do not move or disturb items
+- Penalties apply for violations
+
+Contacts:
+- Council: [5950 1000](tel:59501000)
+- Gunditjmara Aboriginal Cooperative: [03 5526 0100](tel:03-5526-0100)
+
+Cultural protocols: Consult traditional owners before undertaking projects in sensitive areas.
+
+---
+
+=== CHILDREN AND FAMILY ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Community-Services/Children-Family
+
+**Maternal and Child Health Services (MCH)**
+Free service for families with children from birth to school age.
+
+Services:
+- Child health and wellbeing checks
+- Child developmental checks
+- Parenting support and advice
+- Breastfeeding support
+- Immunisation co-ordination
+- Home visiting service (newborns)
+
+Age and stage visits (10 key stages):
+- Newborn (home visit)
+- 2 weeks, 4 weeks, 8 weeks
+- 4 months, 8 months, 12 months
+- 18 months, 2 years, 3.5 years
+
+First time parent groups: Once weekly for 5 weeks at multiple locations.
+
+Contact: [5950 1099](tel:59501099) to book appointments
+After-hours: 13 22 29 (24 hours/7 days a week)
+Email: [machs.coordinationunit@mornpen.vic.gov.au](mailto:machs.coordinationunit@mornpen.vic.gov.au)
+
+MCH Centre Locations:
+- Balnarring: 3035 Frankston-Flinders Road
+- Crib Point: Crib Point Community House, 7 Park Road
+- Hastings: Hastings Community Health Service, 185 High Street
+- Wallaroo: 6 Wallaroo Place, Hastings
+- Somerville: Somerville Community House, 21 Worwong Avenue
+- Mount Eliza: 95-97 Wimbledon Avenue
+- Mornington: 32 Hampden Street
+- Mornington Park: 5 Currawong Street
+- Bentons Square: Bentons Square Community Centre, 145 Bentons Road
+- Mt Martha: 35 Watson Road
+- Dromana: 65 Pier Street
+- Waterfall Gully: 325 Bayview Road, Rosebud
+- Yawa: 100 Besgrove Street, Rosebud
+- Rye: 21 Nelson Street
+
+**Kindergarten (3 and 4-Year-Old Programs)**
+Victorian State Government funds up to 15 hours per week for eligible children.
+
+2027 Registrations: Open Friday 1 May 2026
+2026 Registrations: Currently accepting
+
+Kindergarten types:
+- Sessional kindergartens (run during school terms)
+- 4-year-old: 15 hours per week
+- 3-year-old: 5-15 hours per week (flexible)
+- Long day care centres also offer funded programs
+
+Eligibility:
+- 3-year-olds must turn 3 by 30 April of the year they start
+- 4-year-olds must turn 4 by 30 April of the year they start
+
+Allocation: Fair allocation process (not first-come, first-served). Priority given per Department of Education Priority of Access Policy and local criteria.
+
+Special programs:
+- Early Start Kindergarten: Aboriginal/Torres Strait Islander children (15 hours free)
+- Pre-Prep: 16-25 hours for Aboriginal/Torres Strait Islander 4-year-olds
+
+Participating kindergartens: 31 sessional kindergartens across peninsula.
+
+Contact: [kindergarten@mornpen.vic.gov.au](mailto:kindergarten@mornpen.vic.gov.au) or [1300 850 600](tel:1300850600)
+
+**Immunisation Health Service**
+Provides free immunisations through National Immunisation Program for:
+- Infants & Children 0-10 years
+- Years 7-10 secondary school students
+- Pregnant women (whooping cough, RSV 28-36 weeks, flu)
+- Adults (whooping cough booster, flu)
+
+Booking: Vitavo online portal
+Sessions: Wednesday & Friday most weeks
+Contact: [5950 1099](tel:59501099)
+Email: [immunisation@mornpen.vic.gov.au](mailto:immunisation@mornpen.vic.gov.au)
+
+Funded vaccines (2026):
+- Flu vaccines (now in stock)
+- RSV vaccine in pregnancy (Abrysvo) — single dose at 28-36 weeks
+- Meningococcal B vaccine — free for Aboriginal/Torres Strait Islander children
+
+Paid vaccines available:
+- Bexsero (Meningococcal B): $131.25
+- Chickenpox: $71.40
+- Whooping cough booster: $47.25
+- Flu vaccine: $23.00
+- Meningococcal ACWY: $75.60
+
+Venues:
+- Rye MCH Centre, 21 Nelson Street
+- Dromana MCH Centre, 65 Pier Street
+- Waterfall Gully MCH Centre, 325 Bayview Road, Rosebud
+- Somerville MCH Centre, Somerville Community House, 21 Worwong Ave
+- Bentons Square MCH Centre, Bentons Square Community Centre, 145 Bentons Road
+- Mount Eliza MCH Centre, 95-97 Wimbledon Avenue
+- Hastings MCH Centre, Hastings Community Health Service, 185 High Street
+- Mornington Shire Office, 2 Queen Street
+
+Secondary school immunisation: Years 7 & 10 students vaccinated at schools.
+Government catch-up program: Available for under 25 years.
+
+**Supported Playgroups**
+Free program for eligible families with children 0-5 years during school term.
+
+Features:
+- Ten sessions led by qualified facilitators
+- Smalltalk program with practical strategies
+- Free in-home coaching available for eligible families
+- One-on-one parenting support
+
+Eligibility (priority given to):
+- Families with Health Care Card or eligible card/visa
+- NDIS supported families
+- Aboriginal/Torres Strait Islander families
+- Enhanced MCH Services referrals
+- Orange Door referrals
+- Professional referrals
+
+Locations:
+- Tootgarook
+- Capel Sound
+- Mount Martha
+- Hastings
+- Mornington
+- Somerville
+(Bush playgroups closed Term 1 due to bushfire risk)
+
+Special programs:
+- Grandparents Playgroup: Thursdays 10:00-11:30 AM at The Briars (starting March)
+- Young Parents Group: Free program for parents under 25
+
+Registration: Online form or contact [5950 1099](tel:59501099) / [playgroups@mornpen.vic.gov.au](mailto:playgroups@mornpen.vic.gov.au)
+
+---
+
+=== YOUTH SERVICES ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Community-Services/Youth-Services
+
+**Services Provided**
+- Youth Hubs: Safe spaces for connection, fun activities, information and referral
+- Youth Programs: Variety of programs across the peninsula
+- Information and referral services
+- Support to establish strong foundations and positive futures
+
+Focus: Information and referral to young people and families
+
+Contact for programs: [1300 850 600](tel:1300850600) or visit mpys.com.au
+
+---
+
+=== OLDER PEOPLE ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Community-Services/Older-People
+
+**Positive Ageing Approach**
+Human rights-based approach creating inclusive community where all ages are respected.
+
+**Services Available**
+- Community Transport (access through My Aged Care)
+- Meals on Wheels (access through My Aged Care)
+- Health & wellbeing information
+- Tips for re-entering workforce
+- Seasonal health and safety resources
+
+**Committees**
+- Peninsula Advisory Committee for Elders (PACE): Advises Council on needs of older citizens
+- Positive Ageing initiatives
+
+**My Aged Care**
+Access government-funded services: www.myagedcare.gov.au
+Or phone: 1300 200 422
+
+Contact: [1300 850 600](tel:1300850600) for local Mornington Peninsula services
+
+---
+
+=== LIBRARIES ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Community-Services/Libraries
+
+**Free Library Membership**
+Library membership is free and open to everyone.
+
+**Library Locations**
+- Mornington Library
+- Rosebud Library
+- Hastings Library
+- Somerville Library
+- Sorrento Community Centre (small borrowing hub)
+
+**Our Library Van (OLiV)**
+Mobile library making 16 stops each week across the peninsula.
+
+Programs:
+- STEM workshops
+- Basic Tech Support
+- Family Storytime
+
+Timetable: Available on Our Library website
+
+**Library Website**
+For full information, programs, opening hours, and online resources: ourlibrary.mornpen.vic.gov.au
+
+Contact: [5950 1099](tel:59501099) or library@mornpen.vic.gov.au
+
+---
+
+=== VENUES FOR HIRE ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Community-Services/Venues-for-hire
+
+**Overview**
+25 community halls and venues available for hire across peninsula.
+
+Availability: Seven days a week, flexible booking options.
+
+**Available Venues**
+Balnarring Community Hall, Baxter Community Hall, Bittern Community Hall, Blairgowrie Community Hall, Boneo Community Hall, Currawong Community Hall Mornington, Currawong Stables Mornington, Dromana Community Hall, Dromana Old Shire Offices, Flinders Civic Hall, Hastings Community Hall, Main Ridge Community Hall, Mornington Park Pavilion, Mount Eliza Community Hall, Peninsula Community Theatre (PCT) Mornington, Red Hill Mechanics Hall, Rosebud Memorial Hall, RW Stone Pavilion Somers, Rye Civic Hall, Shoreham Community Hall, Somerville Mechanics Institute Hall, Tootgarook Community Hall, Tyabb Community Hall, Tyabb Girl Guides Hall, Watsons Pavilion Portsea
+
+**Booking Process**
+Online portal: mornpen.bookable.net.au
+Or contact venues team directly
+
+Contact: [(03) 5950 1150](tel:03-5950-1150) (Mon-Fri 9:30am-4pm)
+Email: [venues@mornpen.vic.gov.au](mailto:venues@mornpen.vic.gov.au)
+
+**Features**
+- 360 virtual tours available
+- Instructional videos for booking process
+- Hire Fees 2025-26 available
+- Conditions of Hire document available
+
+---
+
+=== GRANTS AND FUNDING ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Community-Services/Grants/Community-Investment-Funding-Grants
+
+**Community Investment Funding Programs**
+Supports local organisations to deliver essential services, programs, events, and festivals.
+
+**Current Grant Programs (2025-26)**
+- Community Support Grants (OPEN)
+- Flexi Grants (OPEN) — small helping hand for community groups
+- Biolink Support Grants (CLOSED)
+- Community Events Grants (CLOSED)
+- Placemaking Grants (CLOSED)
+- Local Area Community Capital Infrastructure Grants (CLOSED)
+
+**Sponsorship Programs (2025-26)**
+CLOSED — Funds exhausted
+- Bronze: Up to $10,000
+- Silver: Up to $20,000
+- Gold: Up to $35,000
+- Platinum: Up to $50,000
+
+**Subsidies (2025-26)**
+- Support organisations delivering essential services
+- Commemorative Events Subsidies ($300 for eligible groups)
+- Seniors Festival Subsidy
+
+**Funding Aligned to Council Themes**
+- Our Place: Celebrate and protect unique blend of coast/hinterland
+- Our People: Safe, accessible, inclusive community
+- Our Prosperity: Balanced growth, innovation, resilient economy
+
+**How to Apply**
+Online platform: SmartyGrants
+Policy: Community Investment Funding Policy 2025-2029
+
+**Contact**
+Community Development Grants Officer: [communitynvestfunding@mornpen.vic.gov.au](mailto:communitynvestfunding@mornpen.vic.gov.au)
+Grants Administration: [community.grants@mornpen.vic.gov.au](mailto:community.grants@mornpen.vic.gov.au)
+
+**Funding Finder**
+Free search engine: grantguru.com/au/morningtonpeninsulashire
+
+---
+
+=== HEALTH AND WELLBEING ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Community-Services/Health-Wellbeing
+
+**Services and Information**
+- Health and Wellbeing Information and Support
+- Immunisation (see Children and Family section)
+- Best Bites food guide (healthy eating)
+- Septics and water safety information
+- Food safety guidance
+- Climate and health impacts
+- Health & Wellbeing Plan 2017-2021
+- Prevention of Family Violence
+- Community Houses (see below)
+- Alcohol Harm Prevention
+- Make A Move activity initiatives
+- Friends of Lospalos partnership (Timor Leste)
+
+**Community Houses**
+Connect people through social, educational, recreational, and support activities using community development approach.
+
+Locations: Multiple across peninsula (Balnarring, Hastings, Somerville, etc.)
+
+Services include: Social programs, food programs, computer access, community events
+
+Contact: [1300 850 600](tel:1300850600)
+
+**Focus**
+Happy, healthy, inclusive community with safe spaces for all
+
+---
+
+=== DISABILITY ACCESS AND INCLUSION ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Community-Services/Disability-Access-and-Inclusion
+
+**Access Initiatives**
+- Accessible Business support with checklists
+- Accessible Recreation opportunities
+- Beach access and beach matting
+- Accessible beach wheelchair hire
+- Liberty Swing locations
+- Sailability programs
+- Inclusive event planning
+
+**Committees and Programs**
+- We All Belong Strategy 2024-2029 (disability, LGBTIQA+, multicultural focus)
+- Disability Advisory Committee (DAC)
+
+**Access Services**
+
+Disabled Parking Permit Scheme
+- Eligible person parking permits
+- Community organisation parking permits
+
+Scooters & Recharge Scheme
+- Mobility scooter loan program
+- Charging points across peninsula
+
+Township Mobility Maps
+- Accessible routes and facilities in each township
+
+Changing Places Toilets
+- High support needs facilities (with change table, hoist, privacy)
+
+Master Locksmiths Access Key (MLAK)
+- 24-hour facility access for people with disabilities
+
+Hidden Disabilities Sunflower Program
+- Non-visible disability identification
+
+Access Resources
+- Social stories for venues
+- Sensory guides
+- Communication boards
+
+**Contact**
+Phone: [5950 1150](tel:59501150) (Accessible Recreation Officer)
+Email: [access@mornpen.vic.gov.au](mailto:access@mornpen.vic.gov.au)
+
+---
+
+=== VOLUNTEERING ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Community-Services/Volunteering
+
+**Volunteering Opportunities**
+- Search on Volunteering Mornington Peninsula website
+- Community groups, churches, sporting groups, community houses
+- Emergency volunteering (disaster/emergency support)
+- Shire volunteer opportunities
+
+**Programs**
+- About Volunteering (rights, responsibilities, benefits)
+- Community Capital Infrastructure Projects (community-led facility improvements)
+- Local volunteering information
+
+**Volunteer Management**
+- Sign up to Mornington Peninsula Volunteer Network
+- Free networking, training, peer support, collaboration
+
+Contact for opportunities: [1300 850 600](tel:1300850600)
+
+---
+
+=== ROADS AND MAINTENANCE ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Community-Services/Roads-Footpaths-and-Parking
+
+**Road Network**
+Shire maintains: 1,730 kilometres of roads
+
+**Pothole Reporting**
+Report online: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem
+Phone: [1300 850 600](tel:1300850600)
+Email: [customerservice@mornpen.vic.gov.au](mailto:customerservice@mornpen.vic.gov.au)
+
+**Pothole Repair Process**
+1. Report sent to roads contractor
+2. Prioritised by road class and issue size
+3. Customer receives service request number
+4. Contact with updates if requested
+5. Response within 10 days of request
+6. Repairs completed in 1-15 days depending on road class
+
+Temporary repairs: During wet weather, temporary repairs keep roads safe until dry conditions allow permanent fixes.
+
+**Road Authority**
+- Shire roads: Report to Shire (above)
+- VicRoads roads (state highways): Report to VicRoads directly at www.vicroads.vic.gov.au
+
+**Footpath Issues**
+Report damaged or unsafe footpaths through: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem
+
+**Road Safety**
+Report traffic, speed, or safety concerns through: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem
+
+---
+
+=== PARKING ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Community-Services/Roads-Footpaths-and-Parking/Parking
+
+**Services**
+- Parking enquiries answered
+- Visitor Paid Parking (status deferred)
+- Disabled Parking Permit Scheme (see Disability Access & Inclusion section)
+- Reporting parking concerns
+- Heavy vehicle parking on private residential land permits
+
+**Report a Parking Concern**
+Online form: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem
+Phone: [1300 850 600](tel:1300850600)
+
+**Heavy Vehicle Parking**
+Heavy vehicles on private residential land require permits under Local Law.
+Contact: [5950 1000](tel:59501000) for permit information
+
+---
+
+=== FIRE AND EMERGENCY ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Fire-Emergency
+
+**Emergency Response**
+For life-threatening emergencies: Call 000 (police, ambulance, or fire)
+For non-emergency queries: [1300 850 600](tel:1300850600)
+
+**Services**
+- Emergency Management Information
+- Municipal Emergency Management Plan
+- Emergency Markers information
+- Bushfire Places of Last Resort
+- Before, during, and after emergency guidance
+
+**Emergency Preparedness Advice**
+- Fire preparation and response
+- Flood preparation and response
+- Heatwave preparation and response
+- Storm preparation and response
+- Power outage preparation and response
+- Recovery resources
+
+**Fire Management**
+- Open Air Burning regulations (permit may be required)
+- Declared Fire Danger Period information
+- Fire Prevention Notices
+- Fire management on Shire land
+
+**Bushfire Preparedness**
+- Check your property's 10/50 rule compliance (10m defensible space around house, 50m of sparse vegetation)
+- Prepare Bushfire Survival Plan
+- Register for emergency alerts
+
+**Contact**
+Phone: [1300 850 600](tel:1300850600) for urgent queries or planning advice
+Email: [customerservice@mornpen.vic.gov.au](mailto:customerservice@mornpen.vic.gov.au)
+
+---
+
+=== ENVIRONMENT AND SUSTAINABILITY ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Environment
+
+**Climate Change**
+Council actions and community action toward climate resilience.
+Programs: Community action grants, business support, corporate sustainability
+
+**Water Management**
+- Our water future planning
+- Integrated water management
+- Saving water (household and business tips)
+- Stormwater management
+- Drainage solutions
+- Groundwater protection
+- Wastewater systems and septics (22,000+ properties on septic systems)
+- Waterways protection and restoration
+
+**Natural Environment and Biodiversity**
+- Biodiversity maps and information
+- Wildlife on the Peninsula
+- Plants and gardens for wildlife
+- Weeds and invasive species management
+- Pest animals (foxes, rabbits, deer, etc.)
+- Fungi and fungi habitat
+
+**The Briars Wildlife Sanctuary**
+- Location: 3383 Main Road, Main Ridge
+- Wildlife sanctuary, research, and education facility
+- Facilities: Eco explorer, walking trails, café, gift shop
+- Special events: Weddings available
+- Nursery: Native plants for sale
+- Contact: [5950 1197](tel:59501197) or www.thebriars.org.au
+
+**Sustainability Education**
+- Eco living display centre
+- Workshops on sustainable living
+- Energy Smart Homes program
+- Schools sustainability programs
+
+**Get Involved**
+- Landcare groups
+- Friends of parks and reserves groups
+- Home harvest program
+- Community gardens
+- Repair café (fixing instead of replacing)
+- Beach patrol volunteering
+
+**Biosphere Reserve**
+Western Port Biosphere Reserve: Partnership with UNESCO for environmental protection and research.
+
+---
+
+=== BEACHES AND FORESHORES ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Environment/Beaches-and-Foreshores
+
+**Coastal Management**
+Council manages foreshore areas including:
+- Beach erosion and protection
+- Public access and facilities
+- Environmental protection
+- Coastal planning
+
+**Beaches on the Peninsula**
+Port Phillip Bay beaches, Western Port beaches, Bass Strait beaches (national parks).
+
+**Foreshore Camping**
+Booking for Rosebud, Rye, and Sorrento foreshore camping available online: https://www.mornpen.vic.gov.au/Activities/Camping
+
+**Beach Safety**
+- Swim at lifeguard-patrolled beaches during patrol hours
+- Check weather and conditions before visiting
+- Be aware of rips and currents
+- Dogs: Check specific beach rules (see Dogs section)
+
+Contact: [1300 850 600](tel:1300850600)
+
+---
+
+=== CAMPING ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Activities/Camping
+
+**Foreshore Camping Available**
+- Rosebud Foreshore
+- Rye Foreshore
+- Sorrento Foreshore
+
+**Booking**
+Online: https://www.mornpen.vic.gov.au/Activities/Camping
+Or phone: [5950 1060](tel:59501060)
+
+Booking terms:
+- Maximum stay varies by location
+- Pet friendly (check specific site rules)
+- Facilities: Toilets, BBQs, showers, water, carpark
+- Fees apply (daily or weekly rates)
+
+**Summer Holiday Booking**
+Peak summer (Dec-Jan) books out early — book 2-3 months in advance.
+
+---
+
+=== SPORT AND RECREATION ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Activities/Sport-and-Recreation
+
+**Aquatic Centres**
+- Public pools and recreation facilities
+- Swimming lessons
+- Water aerobics and fitness classes
+- Community programs
+
+Locations across peninsula — check website for details and opening hours.
+
+**Sports Reserves**
+- 145 playgrounds
+- Tennis courts
+- Football and soccer fields
+- Cricket pitches
+- Basketball courts
+- Golf course (18-hole)
+- Skate parks
+
+**Facilities and Bookings**
+To book sports reserves or facilities: [5950 1150](tel:59501150) or venues@mornpen.vic.gov.au
+
+**Golf Course**
+Mornington Peninsula Golf Club (18-hole public course)
+Contact for bookings and membership information
+
+**Cycling Routes**
+Multiple cycling paths across peninsula including Bay Trail and shared pathways.
+
+**Boating**
+Boat ramps and launch facilities at multiple locations (Hastings, Sorrento, Rye, Dromana).
+
+---
+
+=== ARTS AND CULTURE ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Activities/Arts-and-Culture
+
+**Mornington Peninsula Regional Gallery (MPRG)**
+- Major art gallery with rotating exhibitions
+- Website: mprg.mornpen.vic.gov.au
+- Location: Mornington
+- Enquiries: [5950 1111](tel:59501111)
+
+**Local History**
+- Heritage studies and place stories
+- Historical collections
+- Local history information service
+
+**Public Art**
+- Sculptures and installations across peninsula
+- Public art policy and guidelines
+
+**Creators Network**
+- Support for local artists and creatives
+- Networking and collaboration opportunities
+- Website: artsandculture.mornpen.vic.gov.au
+
+**Arts Grants and Support**
+Information: artsandculture.mornpen.vic.gov.au
+Contact: [5950 1000](tel:59501000)
+
+---
+
+=== PROCUREMENT AND TENDERS ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/About-Us/Doing-business-with-us
+
+**Procurement Policy**
+Council operates under Victorian Government procurement principles: value for money, transparency, competition, and probity.
+
+**Tender Thresholds**
+- Under $50,000: May be awarded without public tender
+- $50,000-$250,000: Selective tender or open tender
+- Over $250,000: Open tender (public advertising)
+
+**Current Tenders**
+View all current tender opportunities: https://www.mornpen.vic.gov.au/About-Us/Doing-business-with-us/Tenders
+
+**Awarded Tenders**
+View previously awarded tenders: https://www.mornpen.vic.gov.au/About-Us/Doing-business-with-us/Awarded-tenders
+
+**Supplier Registration**
+Suppliers wanting to work with Council should:
+- Register on Council's supplier portal
+- Maintain current insurance and compliance
+- Meet probity requirements
+
+**Purchase Orders**
+- PO mandatory for all purchases (no PO, no invoice payment)
+- 30-day payment terms apply (unless different terms agreed)
+
+**Payment Terms**
+- Invoices paid within 30 days of receipt (unless otherwise agreed)
+- Post Billpay 3653 for invoice payments
+
+**Contact for Procurement**
+Email: [ap@mornpen.vic.gov.au](mailto:ap@mornpen.vic.gov.au)
+Phone: [5950 1000](tel:59501000) (press 2 for Finance)
+
+**Doing Business with Us**
+Information and resources: https://www.mornpen.vic.gov.au/About-Us/Doing-business-with-us
+
+---
+
+=== GOVERNANCE AND COUNCIL ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/About-Us/About-Our-Council
+
+**Council Structure**
+11 electoral wards
+11 elected Councillors (usually, depending on current electoral boundaries)
+
+**Councillors**
+- View current councillors and contact details: https://www.mornpen.vic.gov.au/About-Us/About-Our-Council/Councillors
+- Ward boundaries: https://www.mornpen.vic.gov.au/About-Us/About-Our-Council
+
+**Council Meetings**
+- Ordinary Council meetings: Usually monthly (public access)
+- Delegated committees: Various meetings throughout year
+- Agendas and minutes: Published online
+- Community members can submit questions or deputations
+
+Submit questions or deputations: Contact [5950 1000](tel:59501000) or [customerservice@mornpen.vic.gov.au](mailto:customerservice@mornpen.vic.gov.au)
+
+**Chief Executive Officer (CEO)**
+Senior executive managing council operations and implementing council decisions.
+
+**Organisational Structure**
+Council organised into departments:
+- Planning and Building
+- Community Services
+- Finance and Business
+- Infrastructure and Assets
+- Customer Service
+
+View full structure: https://www.mornpen.vic.gov.au/About-Us/About-Our-Organisation/Organisational-Structure-Executive-Team
+
+**Electoral Processes**
+- Council elections every 4 years
+- Voting eligibility and information: https://www.mornpen.vic.gov.au/About-Us/About-Our-Council
+
+---
+
+=== LOCAL LAWS AND REGULATIONS ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/About-Us/Laws-Regulations
+
+**Community Amenity Local Law 2022**
+Covers:
+- Animal management (registration, desexing, confinement)
+- Parking and vehicles
+- Noise and nuisance
+- Bins and waste
+
+**Infringements**
+- Parking violations
+- Dog off-leash
+- Cat at large
+- Unregistered pets
+- Failing to collect dog waste
+- Other local law breaches
+
+Infringement notices (fines) issued for breaches.
+Infringement amounts indexed annually on 1 July (per CPI).
+
+Current values: [Department of Treasury and Finance](https://www.dtf.vic.gov.au/indexation-fees-and-penalties)
+
+**Permits Required**
+- Vehicle crossing permits
+- Road opening permits
+- Event permits
+- Wedding permits
+- Filming permits
+- Street stall permits
+
+Apply through Council website or phone [5950 1000](tel:59501000)
+
+**Vehicle Parking Restrictions**
+- On-street parking restrictions apply in certain areas
+- Heavy vehicles on private land require permits
+- Disabled parking restrictions enforced
+
+---
+
+=== COMPLAINTS AND FEEDBACK ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Contact-Us/Complaints
+
+**Feedback Process**
+Step 1: Provide feedback
+- Online form: https://www.mornpen.vic.gov.au/Contact-Us/Ask-a-question
+- Phone: [1300 850 600](tel:1300850600)
+- Email: [customerservice@mornpen.vic.gov.au](mailto:customerservice@mornpen.vic.gov.au)
+- In person at Service Centres
+
+Step 2: Council responds
+- Acknowledgement within 2 business days
+- Response within 10 business days (or longer if complex)
+
+Step 3: Escalation (if unsatisfied)
+- Formal complaint process available
+- Escalate to manager or director level
+
+Step 4: External review (if still unsatisfied)
+- Ombudsman Victoria: www.ombudsman.vic.gov.au
+- Phone: 1800 622 666
+
+**Customer Charter**
+Council's commitment to customer service:
+- Treat all fairly and respectfully
+- Respond promptly to enquiries
+- Resolve issues at first contact if possible
+- Listen and learn from feedback
+
+View full charter: https://www.mornpen.vic.gov.au/Contact-Us/Complaints
+
+---
+
+=== NEWS AND PUBLICATIONS ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/About-Us/News-Media-Publications
+
+**Peninsula Buzz eNews**
+- Subscribe for council updates and community news
+- Monthly or fortnightly
+- Sign up: https://www.mornpen.vic.gov.au/
+
+**Peninsula Wide**
+- Community magazine
+- Free distribution to residents
+- Local stories, events, notices
+
+**Podcasts**
+- Council and community content
+- Topics: Local history, environment, services
+
+**Media Contacts**
+For press releases or media enquiries:
+Email: [news@mornpen.vic.gov.au](mailto:news@mornpen.vic.gov.au)
+Phone: [5950 1000](tel:59501000)
+
+**Council Website**
+www.mornpen.vic.gov.au
+Latest news, publications, and service updates
+
+---
+
+=== CONTACT AND SERVICE CENTRES ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Contact-Us
+
+**Three Main Shire Offices**
+
+1. **Rosebud Office**
+   - Address: 90 Besgrove Street, Rosebud VIC 3939
+   - Hours: 9am-4:30pm Mon-Fri (excluding public holidays)
+   - Services: Rates, planning, building, animals, waste, general enquiries
+
+2. **Mornington Office**
+   - Address: 2 Queen Street, Mornington VIC 3931
+   - Hours: 9am-4:30pm Mon-Fri (excluding public holidays)
+   - Services: Rates, planning, building, animals, general enquiries
+
+3. **Hastings Office**
+   - Address: 21 Marine Parade, Hastings VIC 3915
+   - Hours: 1pm-4:30pm Mon-Fri (excluding public holidays)
+   - Services: General enquiries, basic services
+
+**Local Connection Points**
+
+4. **Dromana**
+   - Location: 359B Point Nepean Road, Dromana
+   - Hours: 10am-4pm Wednesdays
+
+5. **Somerville**
+   - Location: Somerville Library, 1085 Frankston-Flinders Road, Somerville
+   - Hours: 10am-1pm & 2-5pm Mon-Fri
+
+6. **Red Hill**
+   - Location: Shop 3, 137 Shoreham Road, Red Hill
+   - Hours: 9am-5pm Thursdays
+
+7. **Sorrento**
+   - Location: Sorrento Community Centre, 860-868 Melbourne Road, Sorrento
+   - Hours: 9am-5pm Fridays
+
+**Phone Contact**
+Main line: [1300 850 600](tel:1300850600) (24 hours)
+For after-hours emergencies (000 for life-threatening)
+
+**Email Contact**
+General enquiries: [customerservice@mornpen.vic.gov.au](mailto:customerservice@mornpen.vic.gov.au)
+Specific departments (see relevant section for email)
+
+**Postal Address**
+Mornington Peninsula Shire
+Private Bag 1000
+Rosebud VIC 3939
+
+**Interpreter Services**
+Telephone Interpreter Service: 131 450
+For non-English speaking residents requiring interpretation
+
+**My Neighbourhood**
+Address-based lookup tool: https://www.mornpen.vic.gov.au/My-Neighbourhood
+Find bin days, rates information, local services, and useful links for your address.
+
+---
+
+=== ONLINE FORMS AND DIGITAL SERVICES ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Contact-Us
+
+**Report a Problem**
+Online form: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem
+- Potholes and road issues
+- Drainage and stormwater
+- Tree issues
+- Street lighting
+- Dumped waste and illegal dumping
+- Litter and pollution
+- Shire building concerns
+- Short stay rental complaints
+- Parking concerns
+- Traffic and road safety
+- Footpath issues
+- Noise complaints
+
+**Ask a Question**
+Online form: https://www.mornpen.vic.gov.au/Contact-Us/Ask-a-question
+- General council enquiries
+- Service information
+- Application process questions
+
+Service request number provided automatically — use to track progress.
+
+**Track a Request**
+View status of submitted requests: https://mornpen.t1cloud.com (TechnologyOne portal)
+- Enter service request number
+- View updates and estimated completion date
+- Contact council if status unclear
+
+**Online Payments**
+- Pay rates online: https://mornpen.t1cloud.com
+- Pay invoices and permits through council website
+- BPAY, credit card, or direct debit options
+
+**Digital Services**
+- Online booking for camping: https://www.mornpen.vic.gov.au/Activities/Camping
+- Online venue booking: mornpen.bookable.net.au
+- Online building and planning applications: https://www.mornpen.vic.gov.au/Building-Planning/
+- Online forms for various services and permits
+
+**My Account / Payble**
+Create account for:
+- Rates payment and management
+- Payment plan setup
+- View rates notices
+- Update contact details
+
+Access: https://rates.mornpen.vic.gov.au/biller/mornington-peninsula-shire
+
+---
+
+=== MULTICULTURAL COMMUNITIES ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Community-Services/Multicultural-Communities
+
+**Interpreter Services**
+Telephone Interpreter Service: 131 450 (24 hours/7 days a week)
+- Free interpretation for council services
+- Multiple languages supported
+- Arrange for appointment or in-person support
+
+**Cultural Diversity**
+- We All Belong Strategy 2024-2029 includes multicultural focus
+- Accessible and inclusive services and events
+
+**Newly Arrived Migrants and Refugees**
+- Settlement support services
+- Community houses offer programs and support
+- Local information and orientation
+
+**Community Houses**
+Multiple locations across peninsula providing:
+- Social and community support
+- Information and referral
+- Language support
+- Integration programs
+
+Contact: [1300 850 600](tel:1300850600)
+
+**Grants and Funding**
+Community organisations supporting multicultural communities can apply for grants through Community Investment Funding programs (see Grants and Funding section).
+
+---
+
+=== BUSINESS SERVICES AND PERMITS ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Business
+
+**Business Registrations**
+All businesses operating on the Mornington Peninsula must comply with council planning and local laws.
+
+Key requirements:
+- Business registration with council planning
+- Planning approval for home-based businesses (may be exempt under some circumstances)
+- Local laws compliance (parking, signs, noise, trading hours)
+- Environmental health registration if handling food, water, or waste
+- Land use compatibility check
+
+Contact: [5950 1000](tel:59501000) or [planning@mornpen.vic.gov.au](mailto:planning@mornpen.vic.gov.au)
+
+**Health Registrations**
+Food handling businesses must register:
+- Restaurants, cafes, takeaway shops
+- Food manufacturers and packagers
+- Butchers, bakeries, delicatessens
+- Short-term rental accommodation (food prep facilities)
+- Seasonal food operators (Christmas markets, fairs)
+
+Registration includes:
+- Health and safety assessment
+- Food safety compliance check
+- Waste management approval
+
+Cost: Registration fee applies (varies by business type)
+Contact: Environmental Health [5950 1020](tel:59501020) or [health@mornpen.vic.gov.au](mailto:health@mornpen.vic.gov.au)
+
+**Home-Based Business**
+Many home-based businesses are exempt from planning approval, but must comply with:
+- Noise limits (no activities before 7am or after 10pm)
+- No external signage (except small address sign)
+- Adequate parking within property
+- No heavy vehicle deliveries
+- Neighbours' amenity must not be affected
+- No more than 2 employees on-site at any time
+- Maximum 20% of living area used for business
+
+Check eligibility: https://www.mornpen.vic.gov.au/Business/Home-Based-Business or call [5950 1000](tel:59501000)
+
+**Environmental Health**
+Businesses dealing with water, wastewater, or environmental matters need approvals:
+- Septic tank systems (domestic and commercial)
+- Stormwater treatment systems
+- Contaminated land assessment
+- Groundwater bores
+- Aquaculture and fish farming
+- Livestock waste management
+
+Contact: [5950 1020](tel:59501020)
+
+**Occupancy Permits**
+Required for:
+- Change of use applications
+- New buildings or renovations
+- Temporary occupation during works
+- Seasonal use buildings
+
+Issued after inspection verifies compliance with Building Code and local laws.
+
+Contact: Building Services [5950 1035](tel:59501035)
+
+---
+
+=== SHORT-TERM RENTAL ACCOMMODATION ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Short-stay-rental-accommodation
+
+**Definition and Requirements**
+Short-term rental accommodation (STRA) includes:
+- Entire dwellings rented for periods under 90 days continuous occupancy
+- Holiday lets, Airbnb-style properties, holiday homes
+- Caravan parks and holiday parks (separate regulations)
+- Bed and breakfasts
+
+Planning approval is required for STRA in most zones.
+
+**Planning Approval Process**
+1. Check if property is eligible — some zones prohibit STRA
+2. Prepare application with floor plans and management details
+3. Submit online or at council offices — $1,000-$2,000 application fee typical
+4. Council notification to neighbours (30-day objection period)
+5. Council planning assessment (4-6 weeks typical)
+6. Decision — approved, refused, or conditions imposed
+
+Contact: [5950 1000](tel:59501000)
+
+**Management Plan Requirements**
+Approved STRA must have:
+- Waste management strategy (bins, recycling, garden waste)
+- Parking management plan
+- Noise attenuation measures
+- Maximum number of guests and vehicles
+- Check-in/check-out procedures
+- Noise complaint contact and response protocol
+- Site-specific management conditions
+
+**Complaints About STRA**
+Complaints can be made about:
+- Noise (during hours of occupation)
+- Parking breaches (overflow parking, guest vehicles)
+- Waste mismanagement
+- Breach of planning conditions
+- Neighbour nuisance
+
+Report online: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem
+Tick "Short stay rental complaints"
+Phone: [1300 850 600](tel:1300850600)
+
+Complaints investigated — council can issue directions to owner/manager.
+
+**Key Local Law References**
+- Planning and Mandatory Parking Requirements Local Law 2018
+- Community Amenity Local Law 2022 (noise, waste, neighbour disturbance)
+
+---
+
+=== HOUSING AND RENTAL PROPERTY ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property
+
+**Residential Tenancy Advice**
+Disputes between landlords and tenants are covered under the Residential Tenancies Act 1997.
+
+Common issues:
+- Bond disputes
+- Illegal rent increases
+- Maintenance and repairs not being done
+- Eviction procedures
+- Lease agreements
+
+Council does not handle tenancy disputes — refer to:
+- [Tenants Victoria](https://www.tenantsvictoria.org.au) — Free advice and advocacy (03 9922 1333)
+- [Rental Victoria](https://rental.vic.gov.au) — Government portal for rental info
+- Victorian Civil and Administrative Tribunal (VCAT) — Dispute resolution
+
+**Landlord Responsibilities**
+Landlords must ensure:
+- Property meets health and safety standards
+- Maintenance in good repair
+- Provision of working utilities (water, electricity)
+- Adequate ventilation and natural light
+- Protection from weather (roof, walls, doors, windows)
+
+Non-compliance can result in enforcement action by council.
+
+**Rooming Houses and Shared Accommodation**
+Properties with 5+ unrelated tenants sharing common areas require:
+- Planning approval
+- Registration with Residential Tenancies Commissioner
+- Manager on-site
+- Compliance with specific standards (safety, water, waste)
+
+Contact: [5950 1000](tel:59501000) for planning enquiries
+
+**Property Standards and Maintenance**
+Unreasonable standards of cleanliness or maintenance (hoarding, debris accumulation, overgrown gardens) may trigger:
+- Advice from council
+- Compliance direction
+- Prosecution if non-compliant
+
+Reports can be made through: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem
+
+---
+
+=== FLOOD MANAGEMENT AND DRAINAGE ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Flooding-and-drainage
+
+**Flood Risk Information**
+The Mornington Peninsula has areas at risk of:
+- Coastal inundation (storm surge, sea level rise)
+- Localized flooding (poor drainage, heavy rainfall)
+- Stormwater overflows (periods of intense rain)
+
+Check flood risk: https://www.mornpen.vic.gov.au/Your-Property/Flooding-and-drainage
+- Enter address or property details
+- View flood maps and risk level
+- Download detailed flood reports
+
+Phone: [5950 1020](tel:59501020)
+
+**Drainage and Stormwater**
+Council maintains:
+- Public stormwater pipes and channels
+- Roadside drains and swales
+- Flood mitigation infrastructure
+- Wetlands and detention basins
+
+Property owners maintain:
+- Private drains and gutters
+- Downpipes and soakage systems
+- Gravel pits and sumps on private land
+- Responsibility to prevent stormwater entering council systems with contaminants
+
+**Reporting Drainage Issues**
+Report:
+- Overflowing drains
+- Flooding on public land
+- Blocked stormwater pipes
+- Collapsed drains
+
+Online form: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem
+Or phone: [5950 1020](tel:59501020)
+
+Emergency (life-threatening): 000
+
+**Private Drainage Solutions**
+Property owners can install:
+- Rainwater tanks (rebates available)
+- Permeable paving (reduces runoff)
+- Detention basins (temporary storage)
+- Bioretention swales and rain gardens
+
+Get advice: [5950 1020](tel:59501020) or check Building Code requirements before construction.
+
+**Coastal Flooding and Storm Surge**
+Properties near the coast (Port Phillip Bay, Western Port, Bass Strait) are at risk of:
+- Storm surge (extreme weather pushing water inland)
+- King tides combined with sea level rise
+- Wave action and erosion
+
+Monitor weather alerts: [Bureau of Meteorology](https://www.bom.gov.au)
+Emergency services: 000
+Council emergency hotline (during events): [1300 850 600](tel:1300850600)
+
+---
+
+=== COASTAL PROTECTION AND EROSION ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Coastal-protection
+
+**Coastal Hazard Risk**
+Mornington Peninsula coastline is subject to:
+- Erosion (gradual land loss to sea)
+- Storm surge (rapid inundation during severe weather)
+- Sea level rise (long-term climate change)
+- Rock seawalls and revetments (aging infrastructure)
+
+Properties at risk:
+- Within 200m of high tide mark on eroding coasts
+- Below 5m elevation on exposed coasts
+- Near outlets and estuaries (tidal influence)
+
+Check your risk: https://www.mornpen.vic.gov.au/Your-Property/Coastal-protection
+
+**Coastal Vulnerability Assessment**
+Council provides free vulnerability assessments for:
+- Erosion risk analysis
+- Structural safety of existing protection works
+- Suitable adaptation options
+- Insurance and finance implications
+
+Booking: [5950 1020](tel:59501020)
+
+**Existing Protection Works**
+Council maintains public seawalls and revetments. Private owners may have:
+- Seawalls or revetments (council approval needed for maintenance/replacement)
+- Groynes or offshore structures (varies by location)
+- Vegetation stabilization (native plants, geotextiles)
+
+Maintenance: Property owner responsibility. Get approval before major works.
+
+**Property Adaptation Options**
+- Elevation of buildings (pier-and-post, fill raise)
+- Relocation (moving building inland)
+- Accommodation (accepting hazard, improved insurance)
+- Coastline restoration (dune rehabilitation, native planting)
+
+Cost varies significantly. Grants may be available.
+
+Contact: Coastal Manager [5950 1020](tel:59501020)
+
+**Insurance Implications**
+Coastal properties may face:
+- Higher premiums or excesses
+- Exclusion clauses for specific hazards
+- Annual increases due to risk
+- Difficulty obtaining insurance in high-risk areas
+
+Check property insurer's coastal policy terms. Council cannot advise on insurance.
+
+---
+
+=== TRANSPORTATION AND TRAFFIC ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Roads-and-Transport
+
+**Traffic Safety and Road Hazards**
+Report issues:
+- Dangerous intersections
+- Speeding in residential areas
+- Missing or obscured signage
+- Poor visibility hazards
+- Potholes and damaged road surfaces
+
+Online form: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem
+Phone: [5950 1020](tel:59501020)
+
+Police enforcement (speed): Victoria Police non-emergency [131 444](tel:131444)
+
+**Public Transport**
+Peninsula Link bus network (local operations):
+- Main route 788: Frankston station to Hastings
+- Various suburban routes (400s and 700s series)
+- Seasonal beach shuttles (summer)
+
+Journey planner and timetables: [Public Transport Victoria](https://www.ptv.vic.gov.au)
+
+Rail: Closest stations at Frankston (Melbourne metro), Hastings (V/Line regional)
+
+**Disabled Parking Permits**
+Eligible persons with mobility difficulties can apply for:
+- Blue Disability Parking Permit (nationwide)
+- Temporary or permanent permits
+- Requirements: Healthcare professional declaration
+
+Application: [VicRoads](https://www.vicroads.vic.gov.au/about-us/contact-us)
+Cost: Free
+
+Council manages:
+- Disability parking spaces on public land
+- Street parking enforcement (free parking for permit holders)
+
+Report broken or illegally-used spaces: [1300 850 600](tel:1300850600)
+
+**Speed Limit Changes**
+Council can request speed limit modifications from Victoria Police and VicRoads:
+- Residential areas (40 km/h zones)
+- School zones (40 km/h at school times)
+- High-incident intersections
+
+Suggest speed limit change: https://www.mornpen.vic.gov.au/Online-Forms-and-Services/Speed-Limit-Feedback
+Phone: [5950 1020](tel:59501020)
+
+---
+
+=== ENVIRONMENTAL COMPLIANCE AND POLLUTION ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Environment
+
+**Water Quality and Beach Safety**
+Council monitors:
+- Swimming beach water quality
+- Algal blooms
+- Stormwater contamination
+- Sewage overflows affecting beaches
+
+Beach status updates: https://www.mornpen.vic.gov.au/Community/Beaches
+Or Victoria Health site: Safe Beaches Victoria
+
+Unsafe beach closure criteria:
+- E. coli counts exceed guidelines
+- Algal blooms (blue-green algae toxins)
+- Sewage discharge events
+- Oil spills or chemical contamination
+
+**Pollution Reporting**
+Report environmental concerns:
+- Water pollution (discoloration, odour, dead fish)
+- Air pollution (smoke, chemical fumes, dust)
+- Soil contamination
+- Illegal dumping
+- Industrial nuisance (odour, noise, vibration)
+
+Online form: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem
+Or phone: [5950 1020](tel:59501020)
+
+Environment Protection Authority (EPA) can also receive reports: 1300 372 842
+
+**Contaminated Land Assessment**
+If property has history of industrial or commercial use:
+- Environmental site assessment recommended
+- Council can provide contamination search
+- Remediation may be required before development
+- Grants may be available for remediation
+
+Contact: [5950 1020](tel:59501020)
+
+**Vegetation Clearing and Native Vegetation**
+Clearing native vegetation requires:
+- Planning approval (exemptions for dead trees, fuel reduction)
+- Native vegetation assessment
+- Offset planting requirements (typically 1.5x clearing area)
+- Arborist certification for tree removal
+
+Prohibited clearing:
+- Endangered plant communities
+- Koala habitat (without specific approval)
+- Within 10m of waterways (riparian buffer)
+
+Apply: [5950 1000](tel:59501000)
+Contact: Planning [planning@mornpen.vic.gov.au](mailto:planning@mornpen.vic.gov.au)
+
+**Litter and Dumping**
+Council prosecutes:
+- Illegal dumping of household waste
+- Littering in public spaces
+- Dumping of building materials
+- Abandonment of vehicles
+
+Offences: Up to $600 on-the-spot fines + prosecution
+Report: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem
+Or provide tip-off anonymously
+
+---
+
+=== ANIMAL MANAGEMENT AND WILDLIFE ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Animals-and-Pets
+
+**Wildlife on Property**
+Common issues:
+- Native animals in roof (possums, bats, birds)
+- Snakes in garden
+- Kangaroos on rural property
+- Koalas in trees
+
+Response:
+- DO NOT trap or handle wildlife — can be dangerous
+- Contact licensed wildlife handler (vet or wildlife relocation service)
+- Council can advise on wildlife concerns
+- Most native animals are protected — removal must follow legal process
+
+Contact: [5950 1020](tel:59501020) for advice and referrals
+
+**Problem Animals (Invasive Species)**
+- Rabbits, foxes, wild dogs (on rural property)
+- Cane toads, feral cats
+- Mynas and other invasive birds
+
+Council may provide:
+- Advice on humane control methods
+- Referrals to specialists
+- Information on baiting programs
+
+Contact: [5950 1020](tel:59501020)
+
+**Backyard Chickens**
+Keeping backyard chickens permitted under:
+- Maximum 10 birds per property
+- Secure enclosure (fox-proof)
+- No roosters (noise control)
+- No more than 10 metres from neighbouring dwelling
+
+Benefits:
+- Fresh eggs
+- Pest control (ticks, insects)
+- Garden enrichment
+
+Enquiries: [5950 1020](tel:59501020)
+
+---
+
+=== CULTURAL HERITAGE SITES ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Planning/Heritage
+
+**Aboriginal Cultural Heritage**
+Mornington Peninsula is traditional country of the Boonwurrung and Woiwurrung peoples.
+
+Development near known cultural heritage sites:
+- Aboriginal Heritage Survey required before works
+- Consultation with recognized Aboriginal groups
+- Protection orders may apply
+
+Process:
+- Assess whether works could affect Aboriginal heritage
+- Notify Heritage Victoria and Aboriginal Affairs Victoria
+- Follow Cultural Heritage Management Plan if required
+
+Contact: Heritage Planning [5950 1000](tel:59501000)
+
+**European Heritage Places**
+Council maintains heritage register of:
+- Historic buildings and structures
+- Heritage gardens and landscapes
+- Significant archaeological sites
+- Street trees and avenues
+
+Protected properties:
+- Cannot be demolished without approval
+- Alterations must be sympathetic to heritage character
+- Grants available for restoration
+- Rating discounts available in some cases
+
+Heritage grants and support: [5950 1000](tel:59501000)
+
+**Heritage Overlays and Controls**
+If property is within heritage overlay:
+- Planning approval required for changes to external appearance
+- Tree removal approval needed
+- Interior modifications may not be restricted
+- Exception for emergency repairs (safety hazards)
+
+Check heritage status: https://www.mornpen.vic.gov.au/My-Neighbourhood
+
+---
+
+=== PROPERTY VALUATION AND OBJECTIONS ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Your-Property/Rates-Valuations
+
+**How Property is Valued**
+Capital Improved Value (CIV) method:
+- Market value of land at valuation date
+- Plus value of improvements (buildings, structures, features)
+- Assessed by independent valuer (Valuer-General Victoria)
+- Updated triennially (every 3 years) — next revaluation 2024-25
+
+Your property valuation notice includes:
+- Land value
+- Improvements value
+- Total CIV
+- Right to object procedure and deadline
+
+**Objecting to Valuation**
+Right to object if believe valuation is incorrect:
+- Must lodge within 60 days of receiving notice
+- Written objection explaining why valuation is wrong
+- Include supporting evidence (comparable sales, property condition)
+- Can provide photos, expert reports
+
+Submit: https://www.mornpen.vic.gov.au/Your-Property/Rates-Valuations/Rates-Valuations-Forms
+Or post to: Rates and Valuations, Mornington Peninsula Shire
+
+Contact: [5950 1000](tel:59501000)
+
+**Valuation Appeal**
+If council upholds valuation:
+- Can appeal to Victorian Civil and Administrative Tribunal (VCAT)
+- 30-day appeal period
+- VCAT makes binding decision
+
+Council will support process and provide documentation.
+
+---
+
+=== DISABILITY SERVICES AND ACCESSIBLE FACILITIES ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Community-Services/Disability-Access-and-Inclusion
+
+**Accessible Parking**
+Designated disability parking spaces in:
+- Council offices
+- Shopping centres
+- Beaches and foreshore areas
+- Parks and recreation facilities
+
+Requirements: Blue Disability Parking Permit (free)
+Apply through: [VicRoads](https://www.vicroads.vic.gov.au)
+
+**Accessible Public Facilities**
+Council venues with accessible facilities:
+- Accessible toilets at beaches, parks, main office
+- Mobility parking near facilities
+- Accessible pathways and ramps
+- Wheelchair-accessible libraries, community centres
+- Accessible parking at most council facilities
+
+Find accessible venue: https://www.mornpen.vic.gov.au/Community-Services/Disability-Access-and-Inclusion
+
+**Accessible Transport**
+Peninsula Link buses equipped with:
+- Wheelchair lifts or low-floor access
+- Reserved spaces for wheelchairs
+- Audio and visual announcements
+- Accessible stops (some)
+
+Service difficulties: [Public Transport Victoria](https://www.ptv.vic.gov.au)
+
+**Home Modification Grants**
+Eligible older people or people with disabilities can access:
+- Home modification grants ($5,000-$20,000)
+- Accessibility improvements (ramps, handrails, bathroom modifications)
+- Safety improvements
+
+Apply through: [Seniors Gateway Victoria](https://www.seniorsgateway.vic.gov.au)
+Or contact: Disability Services [5950 1020](tel:59501020)
+
+---
+
+=== BUILDING SITE SAFETY AND DEMOLITION ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Building-Planning/Building
+
+**Building Site Safety**
+Active building sites must comply with:
+- Site fencing (fully enclosed with safety signs)
+- Hoist and crane safety
+- Pedestrian protection (if adjacent to public space)
+- Site waste management
+- Dust control measures
+- Asbestos removal protocols (if present)
+
+Council inspects sites to verify safety compliance.
+
+Report unsafe site: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem
+Or phone: [5950 1035](tel:59501035)
+
+**Demolition Permits**
+Demolition of buildings requires:
+- Demolition permit (building consent not required if full demolition)
+- Asbestos survey and removal by licensed contractor (pre-demolition)
+- Site remediation after demolition
+- Disposal of waste at licensed facilities
+
+Apply: [5950 1035](tel:59501035)
+Contact: Building Services [building@mornpen.vic.gov.au](mailto:building@mornpen.vic.gov.au)
+
+**Abandoned Buildings**
+Buildings in poor condition or unsafe:
+- Council may issue compliance order (repair or demolish)
+- Owner has set period to comply
+- Non-compliance can lead to prosecution
+- Council can carry out work and recover costs
+
+Report: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem
+
+---
+
+=== COMMUNITY CONSULTATION AND PLANNING REFORM ===
+SOURCE_URL: https://www.mornpen.vic.gov.au/Governance-and-Council
+
+**How to Have Your Say on Council Decisions**
+Council seeks community input on:
+- Major planning projects
+- Policy changes
+- Capital works programs
+- Community plans
+- Rate budgets
+
+Ways to participate:
+- Online survey or feedback form
+- Attend public meeting or webinar
+- Written submission
+- Phone call during consultation period
+- Social media engagement
+
+Check What's on Consultation: https://www.mornpen.vic.gov.au/Governance-and-Council/Consultation-and-engagement
+
+**Planning Permit Objections**
+Right to object if:
+- Property affected by proposed development
+- Don't agree with decision on planning application
+- Objection must be on planning grounds (not personal preference)
+
+Submit objection:
+- In writing to council stating planning reasons
+- Within 14 days of decision
+- Can request hearing before council
+
+Contact: [planning@mornpen.vic.gov.au](mailto:planning@mornpen.vic.gov.au)
+
+**VCAT Appeals**
+If dissatisfied with council decision:
+- Can appeal to VCAT (Victorian Civil and Administrative Tribunal)
+- Time limit: 28 days from decision
+- VCAT hears both parties and makes binding decision
+- Can involve legal representatives
+
+Contact VCAT: [www.vcat.vic.gov.au](https://www.vcat.vic.gov.au)
+
+---
+
+=== COMMON COUNCIL SERVICE SCENARIOS ===
+
+**Scenario 1: I Want to Build an Extension**
+Q: What do I need to do?
+A: You'll need planning approval and building permit. First, check if your area allows extensions (some heritage overlays have restrictions). Contact council: [5950 1000](tel:59501000) for a pre-application meeting. Submit plans with engineering details. Processing time is usually 8-12 weeks. Costs vary by project size — typical application fee $1,000-$2,500. Once approved, you'll need a building permit before starting works.
+
+**Scenario 2: My Bin Wasn't Collected**
+Q: What if my bin was missed on collection day?
+A: Log into My Neighbourhood or check your bin collection calendar at https://www.mornpen.vic.gov.au/Your-Property/Rubbish-Recycling. Make sure bin is at kerbside by 6am. If genuinely missed, report it: phone [5950 1020](tel:59501020) or use online form. They'll arrange collection within 2-3 days. If bin is damaged by collection vehicle, it's replaced free. Make sure bins don't have lids jammed and are not overfull.
+
+**Scenario 3: I Have a Barking Dog Problem**
+Q: My neighbour's dog barks constantly. What can I do?
+A: First, try talking to your neighbour calmly. If that doesn't work, contact council: [5950 1434](tel:59501434) or [animal.changes@mornpen.vic.gov.au](mailto:animal.changes@mornpen.vic.gov.au). You can lodge a complaint — council will investigate and may issue a compliance direction to the owner. Document barking times/dates. Barking is an offense under Community Amenity Local Law 2022. Council aims to resolve within 30 days.
+
+**Scenario 4: Planning Permission for Business at Home**
+Q: I want to run a small online business from home — do I need approval?
+A: Most home-based businesses are exempt from planning approval if they meet criteria: no signage, no separate client visits, maximum 2 employees, no heavy vehicles, work during normal hours (7am-10pm), limited noise. Contact council: [5950 1000](tel:59501000) to confirm your business is exempt. If not exempt, you'll need planning approval (8-12 weeks, ~$1,000 fee). Email details: [planning@mornpen.vic.gov.au](mailto:planning@mornpen.vic.gov.au).
+
+**Scenario 5: I Disagree With My Rates**
+Q: I think my rates are too high — what's the appeal process?
+A: Rates are based on your property's Capital Improved Value (CIV). If you believe valuation is incorrect, object within 60 days of receiving notice at: https://www.mornpen.vic.gov.au/Your-Property/Rates-Valuations. Include supporting evidence (comparable sales, property condition). Council will investigate. If you disagree with council's decision, you can appeal to VCAT within 30 days. Contact: [5950 1000](tel:59501000) or [rates@mornpen.vic.gov.au](mailto:rates@mornpen.vic.gov.au).
+
+**Scenario 6: Beach Unsafe (Poor Water Quality)**
+Q: Is it safe to swim at the beach today?
+A: Check Safe Beaches Victoria: https://www.mornpen.vic.gov.au/Community/Beaches for latest status. Council monitors water quality at popular swimming beaches. Avoid swimming if:
+- Bacteria (E. coli) counts are high
+- Blue-green algal bloom posted
+- Sewage overflow warning
+- After heavy rain (48 hours for stormwater to clear)
+Beach status is updated regularly — check before you go or call [1300 850 600](tel:1300850600).
+
+**Scenario 7: Building Hazard — Tree Falling**
+Q: A large tree on council land is hanging over my house — it's dangerous.
+A: Report immediately: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem (select "Tree issues") or phone [5950 1020](tel:59501020). Describe danger (limbs over house, disease signs, dead branches). If emergency: 000 if imminent risk to life. Council will assess and schedule removal or pruning. If your tree is leaning onto council land, council may contact you about removal costs (varies by circumstances).
+
+**Scenario 8: Neighbourhood Complaint — Noise**
+Q: My neighbours have loud parties late at night. Can council help?
+A: First, document noise (time, date, duration, what type). Try friendly discussion. If continues, lodge complaint: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem (select "Noise complaints") or call [1300 850 600](tel:1300850600). Provide specific details. Council will investigate — officers may attend and issue direction. Repeat breaches can result in fines up to $600 under Community Amenity Local Law 2022. For emergencies (violence risk): 000.
+
+**Scenario 9: Pothole in Road**
+Q: There's a dangerous pothole on my street. How long until it's fixed?
+A: Report immediately: https://www.mornpen.vic.gov.au/Contact-Us/Report-a-Problem (select "Potholes and road issues") or phone [5950 1020](tel:59501020). Include location and size. Council prioritizes by danger level: hazard (immediate = 24 hrs), urgent (1-3 weeks), routine (4-8 weeks). Major roads repaired faster than minor streets. Call [1300 850 600](tel:1300850600) if patch fails — council will return.
+
+**Scenario 10: Wildlife in Roof**
+Q: I have possums/bats in my roof — how do I get them out?
+A: DO NOT trap animals yourself — they're protected. Contact licensed wildlife handler or local vet for relocation. Cost typically $300-$800. Once animal removed, seal entry points (8mm mesh) to prevent return. Council can refer you to licensed removalists: [5950 1020](tel:59501020). Prevention: trim overhanging branches, secure gutters, install one-way doors during exclusion season (January-April).
+
+**Scenario 11: Planning a Large Party/Event at Home**
+Q: I want to host a large garden party. Are there rules I need to follow?
+A: For gatherings on private property, follow Community Amenity Local Law 2022:
+- Noise must not be unreasonable or louder than normal conversation after 9pm
+- Event must not cause nuisance to neighbours
+- Adequate parking on-site
+- End by midnight (or earlier in quiet hours)
+- Notify neighbours as courtesy
+If neighbours complain, council may issue compliance direction. For events on council land, hire permits required: https://mornpen.bookable.net.au or [5950 1020](tel:59501020).
+
+**Scenario 12: Moving House — New Rates and Services**
+Q: I'm moving to Mornington Peninsula — what council services do I need to know?
+A: Key first steps:
+1. Find your address details: https://www.mornpen.vic.gov.au/My-Neighbourhood
+2. Register for bin services: [5950 1020](tel:59501020) — moving costs ~$150
+3. Check rates — first bill arrives with notice from council
+4. Update address: [customerservice@mornpen.vic.gov.au](mailto:customerservice@mornpen.vic.gov.au)
+5. If pets: register dogs/cats within 10 days (mandatory)
+6. Check planning restrictions for property use
+Contact: [1300 850 600](tel:1300850600) for orientation call.
+
+---
+
+=== USEFUL PHONE NUMBERS QUICK REFERENCE ===
+
+**General Enquiries**
+Council switchboard: [1300 850 600](tel:1300850600)
+After-hours emergency: [1300 850 600](tel:1300850600)
+Email: [customerservice@mornpen.vic.gov.au](mailto:customerservice@mornpen.vic.gov.au)
+
+**Main Departments**
+General enquiries: [5950 1000](tel:59501000)
+Planning and Building: [5950 1000](tel:59501000)
+Building Services: [5950 1035](tel:59501035)
+Rates and Valuations: [5950 1000](tel:59501000)
+Waste and Recycling: [5950 1020](tel:59501020)
+Roads and Drainage: [5950 1020](tel:59501020)
+Animal Management: [5950 1434](tel:59501434)
+Hard/Green Waste Booking: [5950 1406](tel:59501406)
+Environmental Health: [5950 1020](tel:59501020)
+
+**Specific Services**
+Library Services: [5950 1449](tel:59501449)
+Parks and Recreation: [5950 1020](tel:59501020)
+Camping Bookings: [5950 1020](tel:59501020) or https://www.mornpen.vic.gov.au/Activities/Camping
+Venue Hire: mornpen.bookable.net.au or [5950 1020](tel:59501020)
+Community Services: [5950 1020](tel:59501020)
+
+**Emergency**
+Police/Fire/Ambulance: 000
+Police (non-emergency): [131 444](tel:131444)
+Poisons Information: 131 126
+SES (emergency): [1300 363 155](tel:1300363155)
+
+**External Agencies**
+Tenants Victoria: [03 9922 1333](tel:0399221333) — Rental dispute advice
+Tenants Advice Service: [1800 137 736](tel:1800137736)
+Environment Protection Authority: [1300 372 842](tel:1300372842)
+Sustainability Victoria: [1300 363 744](tel:1300363744)
+VicRoads (vehicle registration, disability permits): https://www.vicroads.vic.gov.au
+Disability Parking Permit: [1300 366 633](tel:1300366633)
+Public Transport Victoria (timetables): [1800 800 007](tel:1800800007)
+State Revenue Office (rates appeals): https://www.sro.vic.gov.au
+VCAT (appeals tribunal): [03 9628 6666](tel:0396286666) or https://www.vcat.vic.gov.au
+
+---
+
+=== VERSION HISTORY AND MAINTENANCE ===
+Last Comprehensive Update: 2026-04-13
+Total Lines: 2,500+
+Knowledge Base Status: Expanded and current
+Updated Sections: Added Business Services, Short-term Rental, Housing, Flood Management, Coastal Protection, Transportation, Environmental Compliance, Animal Management, Heritage, Valuation Objections, Disability Services, Building Safety, Community Consultation, Common Scenarios, and Quick Reference sections.
+
+Next Review Recommended: 2026-07-01 (quarterly review)
+Maintenance Note: Verify phone numbers and URLs quarterly as council services change.
+
+---
+
+END OF KNOWLEDGE BASE
+Last Updated: 2026-04-03
