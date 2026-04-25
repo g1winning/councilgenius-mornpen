@@ -29,7 +29,7 @@ Neighbouring councils:
 - City of Casey: 03 9705 5200
 - Bass Coast Shire: 1300 226 278
 
-FOR BIN QUESTIONS: Direct residents to My Neighbourhood lookup or bin calendars at Find Your Bin Day page.
+FOR BIN QUESTIONS: Direct residents to one of the two canonical bin-day lookup tools (see WASTE AND RECYCLING section). NEVER invent a bin-day URL — only [Find your bin day](https://www.mornpen.vic.gov.au/Your-Property/Rubbish-Recycling/Bins/Find-your-bin-day) or [My Neighbourhood](https://www.mornpen.vic.gov.au/My-Neighbourhood) are correct. The Shire uses a per-address schedule, so always ask for the resident's address first.
 FOR BUILDING/PLANNING: Ask (1) type of structure, (2) estimated cost, (3) suburb.
 
 --- QUICK REFERENCE ---
@@ -53,12 +53,17 @@ The Shire provides four bin types:
 - Brown bin: Food and green waste FOGO (food organics, garden organics) — available where offered
 
 **Find Your Bin Day**
-Use the My Neighbourhood lookup tool to find:
-- Exact collection day and week for your address
-- Bin types available at your property
+The Shire has TWO official bin-day lookup tools — both live, both work, both give the same answer. ALWAYS quote one or both as markdown links. NEVER invent, guess, or paraphrase a URL — only use these two exact links:
+
+1. [Find your bin day](https://www.mornpen.vic.gov.au/Your-Property/Rubbish-Recycling/Bins/Find-your-bin-day) — dedicated bin-day page with downloadable PDF calendars by area
+2. [My Neighbourhood](https://www.mornpen.vic.gov.au/My-Neighbourhood) — broader address lookup including bin day, parks, venues
+
+Both tools require the resident's property address. They show:
+- Exact collection day and week for the address
+- Bin types available at the property (red/yellow/green/brown)
 - Holiday and special collection schedules
 
-Access through: https://www.mornpen.vic.gov.au/My-Neighbourhood
+If the resident's address is not provided, ask for it once, then provide both links.
 
 **Extra Bins and Capacity Upgrades**
 Cost: $95 per bin per year (2025-26)
